@@ -20,7 +20,7 @@ O desenvolvimento da Quantilica está estruturado em ciclos incrementais que mov
 1.  **Desenvolvimento da `quantilica-cli`**:
     *   Criar um pacote guarda-chuva que utilize o `quantilica-core`.
     *   Implementar arquitetura de plugins para que novos fetchers sejam registrados dinamicamente.
-    *   Comando unificado: `quantilica fetch [sidra|datasus|rtn|inmet|pdet|comex|td]`.
+    *   Comando unificado: `quantilica fetch [sidra|datasus|rtn|inmet|pdet|comex-fetcher|td]`.
 2.  **Portal de Documentação Central (`docs.quantilica.io`)**:
     *   Configurar site estático (MkDocs Material) no repositório `quantilica.github.io`.
     *   Criar guias de "Início Rápido" que cubram a instalação via `uv`.
@@ -102,7 +102,7 @@ Propõe-se a adoção do sufixo funcional `-fetcher` para todos os coletores:
 
 | Nome Atual | Novo Nome Sugerido | Justificativa |
 | :--- | :--- | :--- |
-| `comexdown` | **`comex-fetcher`** | Alinha-se ao padrão e mantém a marca "Comex". |
+| ~~`comexdown`~~ → `comex-fetcher` | **Concluído** | Alinha-se ao padrão e mantém a marca "Comex". |
 | ~~`rtnpy`~~ → `rtn-fetcher` | **Concluído** | Nome genérico renomeado para indicar origem e ação. |
 | ~~`tddata`~~ → `tesouro-direto-fetcher` | **Concluído** | SEO e clareza melhorados (TD era sigla interna). |
 | ~~`inmet-bdmep-data`~~ → `inmet-fetcher` | **Concluído** | `bdmep` pertence aos metadados; marca simplificada para INMET. |

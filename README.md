@@ -14,7 +14,7 @@ Os projetos estão organizados por domínios de dados e funções arquiteturais:
 *   **IBGE/SIDRA:** `sidra-fetcher`, `sidra-sql`, `sidra-pipelines`
 *   **DATASUS:** `datasus-fetcher`, `datasus-analytics`
 *   **Fiscais e Tesouro:** `tesouro-direto-fetcher`, `rtn-fetcher` (RTN), `b3-cotacaohistorica`
-*   **Outros:** `comexdown` (Comércio Exterior), `inmet-fetcher` (Meteorologia), `pdet-fetcher` (Trabalho/CAGED/RAIS)
+*   **Outros:** `comex-fetcher` (Comércio Exterior), `inmet-fetcher` (Meteorologia), `pdet-fetcher` (Trabalho/CAGED/RAIS)
 
 ### Infraestrutura Comum
 *   **`quantilica-core`**: Base estável de utilitários domain-neutral (HTTP, Storage, Logging, Metadata).
