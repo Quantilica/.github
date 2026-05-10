@@ -1,4 +1,6 @@
-# Plano de Implementação: `quantilica-io` 📊
+# Plano de Implementação: `quantilica-io`
+
+> **Status: Planejado** — Fase 3 do Roadmap. Ainda não iniciado.
 
 Este documento detalha a criação do pacote `quantilica-io`, a camada de processamento e padronização analítica da Quantilica.
 

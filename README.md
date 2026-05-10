@@ -56,3 +56,5 @@ A Quantilica está em processo de unificação técnica seguindo estas camadas:
 ---
 *Para mais detalhes sobre a visão estratégica, consulte [.github/STRATEGY.md](STRATEGY.md).*
 *Para detalhes técnicos e planos de infraestrutura, consulte [.github/ARCHITECTURE.md](ARCHITECTURE.md).*
+
+*Atualizado em: 10 de maio de 2026*

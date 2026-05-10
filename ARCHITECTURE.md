@@ -30,7 +30,7 @@ Camada de processamento e padronização analítica. Depende do Polars.
 
 ---
 
-## 🏗️ Princípios de Design
+## 📦 Tipos de Pacotes
 
 | Tipo | Padrão Esperado | Exemplos |
 | :--- | :--- | :--- |
@@ -49,3 +49,5 @@ A evolução técnica da arquitetura foca na transição para uma **Camada de Ab
 
 ---
 *Para o roadmap de negócios e crescimento, veja [STRATEGY.md](STRATEGY.md).*
+
+*Atualizado em: 10 de maio de 2026*

@@ -115,4 +115,4 @@ Propõe-se a adoção do sufixo funcional `-fetcher` para todos os coletores:
 *   **Open Collective:** Transparência financeira para possíveis contribuições futuras.
 
 ---
-*Atualizado em: 9 de maio de 2026*
+*Atualizado em: 10 de maio de 2026*

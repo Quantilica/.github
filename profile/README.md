@@ -14,7 +14,7 @@ Abstraímos a instabilidade e a inconsistência das fontes oficiais (APIs obsole
 - 📈 **Estatísticas e Economia:** Integração profunda com SIDRA/IBGE e Comércio Exterior (Comex Stat).
 - 🏥 **Saúde:** Extração e normalização de microdados do DATASUS.
 - 💼 **Trabalho:** Processamento de dados do Programa de Disseminação de Estatísticas do Trabalho (PDET).
-- ☁️ **Meteorologia:** Coleta automatizada de dados históricos do INMET-BDMEP.
+- ☁️ **Meteorologia:** Coleta automatizada de dados históricos do INMET.
 
 ---
 
