@@ -13,7 +13,7 @@ Os projetos estão organizados por domínios de dados e funções arquiteturais:
 ### Domínios de Dados
 *   **IBGE/SIDRA:** `sidra-fetcher`, `sidra-sql`, `sidra-pipelines`
 *   **DATASUS:** `datasus-fetcher`, `datasus-analytics`
-*   **Fiscais e Tesouro:** `tesouro-direto-fetcher`, `rtnpy` (RTN), `b3-cotacaohistorica`
+*   **Fiscais e Tesouro:** `tesouro-direto-fetcher`, `rtn-fetcher` (RTN), `b3-cotacaohistorica`
 *   **Outros:** `comexdown` (Comércio Exterior), `inmet-fetcher` (Meteorologia), `pdet-fetcher` (Trabalho/CAGED/RAIS)
 
 ### Infraestrutura Comum
