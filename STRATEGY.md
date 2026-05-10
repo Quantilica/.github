@@ -94,7 +94,7 @@ A inconsistência na nomeação dos projetos dificulta a descoberta de ferrament
 
 ### Diagnóstico dos Padrões Atuais
 *   **Padrão "Fonte-Fetcher" (`sidra-fetcher`):** O mais claro e funcional. Indica origem e ação. É o padrão recomendado.
-*   **Padrão "Nome-Único" (`comexdown`, `rtnpy`, `tddata`):** Falha no branding. `comexdown` soa como script utilitário; `rtnpy` parece matemática genérica; `tddata` é vago para SEO.
+*   **Padrão "Nome-Único" (`comexdown`, `rtnpy`):** Falha no branding. `comexdown` soa como script utilitário; `rtnpy` parece matemática genérica.
 *   **Padrão "Descritivo-Longo" (`inmet-bdmep-data`):** Redundante. O sufixo `-data` é desnecessário em uma organização de dados, e detalhes técnicos da fonte (ex: `bdmep`) devem ficar nos metadados, não no nome.
 
 ### Proposta de Unificação
@@ -104,7 +104,7 @@ Propõe-se a adoção do sufixo funcional `-fetcher` para todos os coletores:
 | :--- | :--- | :--- |
 | `comexdown` | **`comex-fetcher`** | Alinha-se ao padrão e mantém a marca "Comex". |
 | `rtnpy` | **`rtn-fetcher`** | Identifica claramente o download de dados do RTN. |
-| `tddata` | **`tesouro-direto-fetcher`** | Melhora o SEO e clareza (TD é sigla interna). |
+| ~~`tddata`~~ → `tesouro-direto-fetcher` | **Concluído** | SEO e clareza melhorados (TD era sigla interna). |
 | `inmet-bdmep-data` | **`inmet-fetcher`** | Simplifica a marca principal (INMET). |
 | `pdet-data` | **`pdet-fetcher`** | Segue a funcionalidade principal de coleta. |
 

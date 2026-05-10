@@ -34,7 +34,7 @@ Camada de processamento e padronização analítica. Depende do Polars.
 
 | Tipo | Padrão Esperado | Exemplos |
 | :--- | :--- | :--- |
-| **Client** | Biblioteca Python + CLI simples | `sidra-fetcher`, `tddata` |
+| **Client** | Biblioteca Python + CLI simples | `sidra-fetcher`, `tesouro-direto-fetcher` |
 | **Pipeline** | Motor ETL + definições TOML/SQL | `sidra-sql`, `sidra-pipelines` |
 | **Data Package** | Download + Transformação + Export | `rtnpy`, `inmet-fetcher` |
 

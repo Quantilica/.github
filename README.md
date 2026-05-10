@@ -13,7 +13,7 @@ Os projetos estão organizados por domínios de dados e funções arquiteturais:
 ### Domínios de Dados
 *   **IBGE/SIDRA:** `sidra-fetcher`, `sidra-sql`, `sidra-pipelines`
 *   **DATASUS:** `datasus-fetcher`, `datasus-analytics`
-*   **Fiscais e Tesouro:** `tddata`, `rtnpy` (RTN), `b3-cotacaohistorica`
+*   **Fiscais e Tesouro:** `tesouro-direto-fetcher`, `rtnpy` (RTN), `b3-cotacaohistorica`
 *   **Outros:** `comexdown` (Comércio Exterior), `inmet-bdmep-data` (Meteorologia), `pdet-data` (Trabalho/CAGED/RAIS)
 
 ### Infraestrutura Comum
@@ -54,5 +54,5 @@ A Quantilica está em processo de unificação técnica seguindo estas camadas:
 4.  **Data Access Layer:** Abstração de acesso via Parquet e Polars.
 
 ---
-*Para mais detalhes sobre a visão estratégica, consulte [.github/STRATEGY.md](.github/STRATEGY.md).*
-*Para detalhes técnicos e planos de infraestrutura, consulte [.github/ARCHITECTURE.md](.github/ARCHITECTURE.md).*
+*Para mais detalhes sobre a visão estratégica, consulte [.github/STRATEGY.md](STRATEGY.md).*
+*Para detalhes técnicos e planos de infraestrutura, consulte [.github/ARCHITECTURE.md](ARCHITECTURE.md).*
