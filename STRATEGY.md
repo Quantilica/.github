@@ -106,7 +106,7 @@ Propõe-se a adoção do sufixo funcional `-fetcher` para todos os coletores:
 | `rtnpy` | **`rtn-fetcher`** | Identifica claramente o download de dados do RTN. |
 | ~~`tddata`~~ → `tesouro-direto-fetcher` | **Concluído** | SEO e clareza melhorados (TD era sigla interna). |
 | `inmet-bdmep-data` | **`inmet-fetcher`** | Simplifica a marca principal (INMET). |
-| `pdet-data` | **`pdet-fetcher`** | Segue a funcionalidade principal de coleta. |
+| ~~`pdet-data`~~ → `pdet-fetcher` | **Concluído** | Sufixo `-data` redundante numa org de dados. |
 
 ---
 
