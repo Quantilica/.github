@@ -10,7 +10,7 @@ Apenas as versões mais recentes dos nossos pacotes (`main` branch) recebem atua
 
 Se você descobrir um problema de segurança (ex: exposição de credenciais, vulnerabilidade de injeção em parsers, ou falha na validação de SHA256), por favor **não abra uma issue pública**.
 
-Envie um e-mail para: **danielkomesu@gmail.com**
+Envie um e-mail para: **daniel@dkko.me**
 
 Agradecemos o seu esforço em praticar a divulgação responsável (responsible disclosure). Responderemos em até 48 horas para coordenar a correção.
 
