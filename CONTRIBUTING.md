@@ -15,6 +15,7 @@ Para manter a consistência em todo o ecossistema, seguimos regras rigorosas. Co
 5. **Cobertura:** Novos PRs devem manter 80%+ de cobertura de testes.
 6. **Proveniência:** Todo artefato de dado baixado deve gerar um `.manifest.json` compatível com o core.
 7. **Nomenclatura:** Novos repositórios de coleta seguem o padrão `<fonte>-fetcher`.
+8. **Documentação:** READMEs seguem o template e as regras de idioma definidos em [DOCUMENTATION.md](DOCUMENTATION.md).
 
 ---
 
