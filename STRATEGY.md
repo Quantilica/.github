@@ -17,19 +17,9 @@ O desenvolvimento da Quantilica está estruturado em ciclos incrementais que mov
 ### Fase 1: Unificação e Experiência do Desenvolvedor (DX)
 *Objetivo: Reduzir a fricção de entrada para novos usuários e padronizar o consumo das ferramentas.*
 
-1.  **Desenvolvimento da `quantilica-cli`**:
-    *   Criar um pacote guarda-chuva que utilize o `quantilica-core`.
-    *   Implementar arquitetura de plugins para que novos fetchers sejam registrados dinamicamente.
-    *   Comando unificado: `quantilica fetch [sidra|datasus|rtn|inmet|pdet|comex-fetcher|td]`.
-2.  **Portal de Documentação Central (`docs.quantilica.io`)**:
-    *   Configurar site estático (MkDocs Material) no repositório `quantilica.github.io`.
-    *   Criar guias de "Início Rápido" que cubram a instalação via `uv`.
-    *   Seção de "Cookbook" com tutoriais de cruzamento de dados (ex: Correlação IPCA vs. Desemprego).
-3.  **Template de Projeto (Boilerplate)**:
+1.  **Template de Projeto (Boilerplate)**:
     *   Criar repositório template com `hatchling`, `ruff`, `pytest` e `quantilica-core` pré-configurados.
     *   Incluir GitHub Actions base para teste e lint automático.
-4.  **Migração de Nomenclatura**:
-    *   Executar a renomeação dos repositórios conforme o plano de Branding (ex: `comexdown` -> `comex-fetcher`).
 
 ### Fase 2: Confiança, Estabilidade e Qualidade
 *Objetivo: Transformar a Quantilica na camada de confiança entre os usuários e a instabilidade das fontes oficiais.*
@@ -50,10 +40,7 @@ O desenvolvimento da Quantilica está estruturado em ciclos incrementais que mov
 ### Fase 3: Evolução Técnica (Data Access Layer)
 *Objetivo: Mover o processamento de "arquivos brutos" para "ativos analíticos prontos".*
 
-1.  **Lançamento da `quantilica-io`**:
-    *   Pacote especializado em processamento via **Polars**.
-    *   Centralizar a lógica de conversão Parquet, removendo o boilerplate de leitura de cada fetcher.
-2.  **Analytical-Ready (Foco em Parquet)**:
+1.  **Analytical-Ready (Foco em Parquet)**:
     *   Garantir que todo download possa ser automaticamente convertido em Parquet tipado.
     *   Injeção de hashes de proveniência no header dos arquivos Parquet.
 2.  **Governança via Contratos de Dados (Data Contracts)**:
@@ -88,31 +75,9 @@ Transformar a Quantilica em referência para a comunidade analítica brasileira:
 
 ---
 
-## 🏷️ Harmonização de Nomenclatura (Branding)
-
-A inconsistência na nomeação dos projetos dificulta a descoberta de ferramentas e a percepção de unidade da organização.
-
-### Diagnóstico dos Padrões Atuais
-*   **Padrão "Fonte-Fetcher" (`sidra-fetcher`):** O mais claro e funcional. Indica origem e ação. É o padrão recomendado.
-*   **Padrão "Nome-Único" (`comexdown`):** Falha no branding. `comexdown` soa como script utilitário. *(Nota: `rtnpy` foi renomeado para `rtn-fetcher`.)*
-*   **Padrão "Descritivo-Longo" (`inmet-bdmep-data`):** Redundante. O sufixo `-data` é desnecessário em uma organização de dados, e detalhes técnicos da fonte (ex: `bdmep`) devem ficar nos metadados, não no nome. *(Concluído: renomeado para `inmet-fetcher`.)*
-
-### Proposta de Unificação
-Propõe-se a adoção do sufixo funcional `-fetcher` para todos os coletores:
-
-| Nome Atual | Novo Nome Sugerido | Justificativa |
-| :--- | :--- | :--- |
-| ~~`comexdown`~~ → `comex-fetcher` | **Concluído** | Alinha-se ao padrão e mantém a marca "Comex". |
-| ~~`rtnpy`~~ → `rtn-fetcher` | **Concluído** | Nome genérico renomeado para indicar origem e ação. |
-| ~~`tddata`~~ → `tesouro-direto-fetcher` | **Concluído** | SEO e clareza melhorados (TD era sigla interna). |
-| ~~`inmet-bdmep-data`~~ → `inmet-fetcher` | **Concluído** | `bdmep` pertence aos metadados; marca simplificada para INMET. |
-| ~~`pdet-data`~~ → `pdet-fetcher` | **Concluído** | Sufixo `-data` redundante numa org de dados. |
-
----
-
 ## ⚖️ Governança e Comunidade
 *   **Sustentabilidade:** Avaliar modelos de apoio (GitHub Sponsors) para custear a infraestrutura de hospedagem de dados.
 *   **Open Collective:** Transparência financeira para possíveis contribuições futuras.
 
 ---
-*Atualizado em: 10 de maio de 2026*
+*Atualizado em: 12 de maio de 2026*
