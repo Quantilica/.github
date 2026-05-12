@@ -1,64 +1,39 @@
 # Guia de Contribuição — Quantilica
 
-Obrigado pelo seu interesse em contribuir para a Quantilica! Somos uma organização dedicada a abrir e normalizar dados públicos brasileiros.
+Obrigado pelo seu interesse em contribuir! A Quantilica é uma iniciativa aberta que depende da comunidade para manter a resiliência dos dados públicos brasileiros.
+
+👉 **Para o guia completo e formatado, acesse: [docs.quantilica.io/contribuir](https://docs.quantilica.com/contribuir)**
 
 ---
 
-## Padrões Técnicos
+## ⚡ TL;DR (Resumo Rápido)
 
-Para manter a consistência em todo o ecossistema, seguimos regras rigorosas. Consulte o [ARCHITECTURE.md](ARCHITECTURE.md) para o racional técnico completo.
+### 1. Reportando Bugs
+Se um coletor parou de funcionar porque o governo mudou a URL:
+- Abra uma **Issue** no repositório específico (ex: `sidra-fetcher`).
+- Use o template **Bug Report**.
 
-1. **Fundação:** Todos os coletores de dados devem utilizar o pacote [`quantilica-core`](https://github.com/Quantilica/quantilica-core).
-2. **Linguagem:** Python >= 3.12.
-3. **Ambiente:** Gerenciamento de dependências via `uv`.
-4. **Qualidade:** `ruff` para linting/formatação e `pytest` para testes.
-5. **Cobertura:** Novos PRs devem manter 80%+ de cobertura de testes.
-6. **Proveniência:** Todo artefato de dado baixado deve gerar um `.manifest.json` compatível com o core.
-7. **Nomenclatura:** Novos repositórios de coleta seguem o padrão `<fonte>-fetcher`.
-8. **Documentação:** READMEs seguem o template e as regras de idioma definidos em [DOCUMENTATION.md](DOCUMENTATION.md).
+### 2. Sugerindo Novas Fontes
+- Abra uma Issue neste repositório (`.github`).
+- Use o template **Feature Request / Nova Fonte**.
 
----
-
-## Como Contribuir
-
-### Reportando Bugs (Scrapers Quebrados)
-
-Sites governamentais mudam com frequência. Se um fetcher parou de funcionar:
-
-1. Verifique se a fonte oficial está online.
-2. Abra uma Issue usando o template **Bug Report**, descrevendo o erro e anexando o log do `quantilica-core` quando disponível.
-
-### Sugerindo Novas Fontes
-
-Quer que a Quantilica suporte uma nova base de dados?
-
-1. Abra uma Issue usando o template **Feature Request / Nova Fonte**.
-2. Descreva a URL da fonte, o formato dos dados (CSV, API, FTP) e a periodicidade de atualização.
-
-### Enviando Código (Pull Requests)
-
-1. Faça um fork do repositório e crie uma branch: `git checkout -b feat/descricao-curta`.
-2. Implemente as mudanças, garantindo cobertura de testes >= 80%.
-3. Execute o linting: `uv run ruff check .`
-4. Execute os testes: `uv run pytest`
-5. Abra o PR como **Draft** enquanto o trabalho estiver em andamento.
-6. Marque como **Ready for Review** quando estiver pronto — inclua uma descrição clara do que muda e por quê.
-7. PRs são mergeados via **squash merge** para manter o histórico linear.
+### 3. Enviando Código (PRs)
+- **Linguagem:** Python 3.12+ (gerenciado via `uv`).
+- **Padrões:** Usamos `ruff` para lint/format e `pytest` para testes.
+- **Cobertura:** Mínimo de 80% em código novo.
+- **Fluxo:** Fork → Branch `feat/` ou `fix/` → PR como Draft → Ready for Review.
 
 ---
 
-## Versionamento e Releases
+## 📚 Documentação Técnica Crucial
 
-O projeto segue **Semantic Versioning** (MAJOR.MINOR.PATCH):
-
-- **PATCH**: correções de bugs, atualizações de URLs/endpoints governamentais.
-- **MINOR**: novas funcionalidades compatíveis com versões anteriores.
-- **MAJOR**: mudanças de API incompatíveis.
-
-Releases são publicadas sem ciclo fixo — conforme funcionalidades são concluídas. Para `datasus-fetcher` (único pacote no PyPI), uma tag git dispara o workflow de publicação automática.
+Antes de codificar, entenda nossos padrões:
+- **[Arquitetura da Plataforma](https://docs.quantilica.com/concepts/arquitetura)**
+- **[Convenções de Armazenamento](https://docs.quantilica.com/concepts/storage)**
+- **[Padrões de Escrita (READMEs)](https://docs.quantilica.com/normas/escrita)**
+- **[Roadmap Estratégico](https://docs.quantilica.com/roadmap)**
 
 ---
-
 *Ao contribuir, você concorda que seu código será licenciado sob a licença MIT do projeto.*
 
-*Atualizado em: 10 de maio de 2026*
+*Atualizado em: 12 de maio de 2026*
