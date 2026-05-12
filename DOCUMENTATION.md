@@ -168,22 +168,19 @@ MIT — veja [LICENSE](LICENSE).
 
 | Pacote | Tipo | Idioma | Badges |
 |---|---|---|---|
-| `bcb-sgs-metadata-db` | Aplicação Web | PT | ✓ |
 | `comex-fetcher` | Data Package | PT | ✓ |
 | `datasus-fetcher` | Data Package | PT | ✓ |
-| `datasus-metadata-db` | Aplicação Web | PT | ✓ |
-| `ibge-sidra-metadata-db` | Aplicação Web | PT | ✓ |
 | `inmet-fetcher` | Data Package | PT | ✓ |
 | `pdet-fetcher` | Data Package | PT | ✓ |
+| `quantilica-cli` | CLI | PT | ✓ |
 | `quantilica-core` | Infraestrutura | PT | ✓ |
-| `quantilica-web` | Infraestrutura | PT | ✓ |
+| `quantilica-io` | Infraestrutura | PT | ✓ |
 | `rtn-fetcher` | Data Package | PT | ✓ |
 | `sidra-fetcher` | Client Library | PT | ✓ |
 | `sidra-pipelines` | Catálogo ETL | PT | ✓ |
 | `sidra-sql` | Motor ETL | PT | ✓ |
-| `tddata-db` | Aplicação Web | PT | ✓ |
 | `tesouro-direto-fetcher` | Data Package | PT | ✓ |
 
 ---
 
-*Atualizado em: 10 de maio de 2026*
+*Atualizado em: 12 de maio de 2026*

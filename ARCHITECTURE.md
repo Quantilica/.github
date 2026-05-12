@@ -37,6 +37,7 @@ Camada de processamento e padronização analítica. Depende do Polars.
 | **Client** | Biblioteca Python + CLI simples | `sidra-fetcher`, `tesouro-direto-fetcher` |
 | **Pipeline** | Motor ETL + definições TOML/SQL | `sidra-sql`, `sidra-pipelines` |
 | **Data Package** | Download + Transformação + Export | `rtn-fetcher`, `inmet-fetcher` |
+| **CLI / Plugin Host** | CLI unificada com descoberta por entry points | `quantilica-cli` |
 
 ---
 
@@ -50,4 +51,4 @@ A evolução técnica da arquitetura foca na transição para uma **Camada de Ab
 ---
 *Para o roadmap de negócios e crescimento, veja [STRATEGY.md](STRATEGY.md).*
 
-*Atualizado em: 10 de maio de 2026*
+*Atualizado em: 12 de maio de 2026*

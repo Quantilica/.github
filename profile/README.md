@@ -31,7 +31,7 @@ Todos os nossos projetos são construídos sobre o [**`quantilica-core`**](https
 ## 🗺️ Visão de Futuro
 
 Estamos evoluindo para nos tornarmos a **Camada de Abstração de Dados (Data Access Layer)** definitiva para o Brasil:
-1.  **CLI Unificada:** Uma interface única para todas as fontes.
+1.  **CLI Unificada:** [`quantilica-cli`](https://github.com/Quantilica/quantilica-cli) — interface única com descoberta de fetchers via plugins. *(Disponível em v0.1.0)*
 2.  **Data Contracts:** Garantia de integridade e alerta automático de mudanças nas fontes.
 3.  **Unified Hub:** Portal para busca global e download de dados pré-processados.
 
