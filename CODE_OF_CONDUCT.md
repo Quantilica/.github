@@ -26,7 +26,7 @@ Exemplos de comportamento inaceitável:
 
 ## Aplicação
 
-Casos de comportamento abusivo, de assédio ou inaceitável podem ser reportados ao mantenedor do projeto em **daniel@dkko.me**. Todas as reclamações serão analisadas e investigadas com prontidão e imparcialidade.
+Casos de comportamento abusivo, de assédio ou inaceitável podem ser reportados ao mantenedor do projeto em **contato@quantilica.com**. Todas as reclamações serão analisadas e investigadas com prontidão e imparcialidade.
 
 Os mantenedores do projeto têm o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, código, edições de wiki, issues e outras contribuições que não estejam alinhadas com este Código de Conduta.
 
