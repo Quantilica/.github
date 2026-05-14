@@ -2,7 +2,7 @@
 
 Obrigado pelo seu interesse em contribuir! A Quantilica é uma iniciativa aberta que depende da comunidade para manter a resiliência dos dados públicos brasileiros.
 
-👉 **Para o guia completo e formatado, acesse: [docs.quantilica.io/contribuir](https://docs.quantilica.com/contribuir)**
+👉 **Para o guia completo e formatado, acesse: [docs.quantilica.com/contribuir](https://docs.quantilica.com/contribuir)**
 
 ---
 
