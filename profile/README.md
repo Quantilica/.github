@@ -41,7 +41,7 @@ Estamos evoluindo para nos tornarmos a **Camada de Abstração de Dados (Data Ac
 
 Somos uma iniciativa aberta! Se você tem experiência com dados públicos brasileiros ou quer ajudar a melhorar nossa infraestrutura em Python:
 1.  Explore nossos repositórios terminados em `-fetcher`.
-2.  Leia o nosso [**Guia de Contribuição**](https://docs.quantilica.io/contribuir) e o nosso [**Roadmap Estratégico**](https://docs.quantilica.io/roadmap).
+2.  Leia o nosso [**Guia de Contribuição**](https://docs.quantilica.com/contribuir) e o nosso [**Roadmap Estratégico**](https://docs.quantilica.com/roadmap).
 3.  Abra uma Issue ou sugira uma nova fonte de dados.
 
 ---
