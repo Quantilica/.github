@@ -56,7 +56,7 @@ A Quantilica está em processo de unificação técnica seguindo estas camadas:
 4.  **Data Access Layer:** Abstração de acesso via Parquet e Polars.
 
 ---
-*Para mais detalhes sobre a visão estratégica, consulte [.github/STRATEGY.md](STRATEGY.md).*
+*Para mais detalhes sobre a visão estratégica, consulte o [Roadmap Estratégico](https://docs.quantilica.com/roadmap).*
 *Para detalhes técnicos e planos de infraestrutura, consulte [.github/ARCHITECTURE.md](ARCHITECTURE.md).*
 
 *Atualizado em: 13 de maio de 2026*

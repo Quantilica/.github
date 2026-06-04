@@ -2,7 +2,7 @@
 
 Este documento foi movido para o site oficial de documentação da Quantilica para garantir que a versão mais recente esteja sempre disponível e formatada corretamente.
 
-👉 **Leia o racional completo em: [docs.quantilica.com/concepts/arquitetura](https://docs.quantilica.com/concepts/arquitetura.md)**
+👉 **Leia o racional completo em: [docs.quantilica.com/concepts/arquitetura](https://docs.quantilica.com/concepts/arquitetura)**
 
 ---
 

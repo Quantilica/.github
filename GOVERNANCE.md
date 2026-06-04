@@ -18,7 +18,7 @@ Não há ciclo fixo. Releases são publicadas conforme funcionalidades são conc
 
 ## Futuro
 
-Conforme o projeto crescer em contribuidores e usuários, pretende-se migrar para um modelo de governança comunitária com comitê técnico. Isso está previsto na Fase 4 do [Roadmap Estratégico](STRATEGY.md).
+Conforme o projeto crescer em contribuidores e usuários, pretende-se migrar para um modelo de governança comunitária com comitê técnico. Isso está previsto na Fase 4 do [Roadmap Estratégico](https://docs.quantilica.com/roadmap).
 
 ## Conflitos e Decisões Controversas
 
