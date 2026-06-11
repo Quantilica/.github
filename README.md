@@ -19,7 +19,7 @@ Os projetos estão organizados por domínios de dados e funções arquiteturais:
 
 ### Infraestrutura Comum
 *   **`quantilica-core`**: Base estável de utilitários domain-neutral (HTTP, Storage, Logging, Metadata).
-*   **`quantilica-io`**: Camada de processamento analítico (Parquet, Polars, Schema).
+*   **`quantilica-analytics`**: Camada de processamento analítico (Parquet, Polars, Schema).
 *   **`quantilica-cli`**: Interface de linha de comando unificada com arquitetura de plugins via entry points.
 *   **`docs` / [docs.quantilica.com](https://docs.quantilica.com)**: Documentação centralizada e portal da organização.
 

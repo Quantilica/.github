@@ -8,7 +8,7 @@ Este documento foi movido para o site oficial de documentação da Quantilica pa
 
 ## Resumo Executivo
 
-A arquitetura da Quantilica segue o princípio da **Neutralidade de Domínio**, separando a infraestrutura de I/O (`quantilica-core`) da camada de acesso a dados analíticos (`quantilica-io`).
+A arquitetura da Quantilica segue o princípio da **Neutralidade de Domínio**, separando a infraestrutura de I/O (`quantilica-core`) da camada de acesso a dados analíticos (`quantilica-analytics`).
 
 ### Estrutura de Pacotes
 - **Fetchers:** Coletores leves de dados brutos.
