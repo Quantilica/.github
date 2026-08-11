@@ -12,9 +12,10 @@ Os projetos estão organizados por domínios de dados e funções arquiteturais:
 
 ### Domínios de Dados
 *   **IBGE/SIDRA:** `sidra-fetcher`, `sidra-sql`, `sidra-pipelines`
-*   **DATASUS:** `datasus-fetcher`
-*   **Fiscais e Tesouro:** `tesouro-direto-fetcher`, `rtn-fetcher` (RTN)
+*   **DATASUS & INEP:** `datasus-fetcher`, `inep-fetcher`
+*   **Fiscais e Tesouro:** `tesouro-direto-fetcher`, `rtn-fetcher`, `rfb-cnpj-fetcher`
 *   **Banco Central:** `bcb-sgs-fetcher` (SGS — séries temporais)
+*   **Infraestrutura e Energia:** `anp-fetcher` (Petróleo/Gás), `anac-fetcher` (Aviação Civil)
 *   **Outros:** `comex-fetcher` (Comércio Exterior), `inmet-fetcher` (Meteorologia), `pdet-fetcher` (Trabalho/CAGED/RAIS)
 
 ### Infraestrutura Comum
@@ -59,4 +60,4 @@ A Quantilica está em processo de unificação técnica seguindo estas camadas:
 *Para mais detalhes sobre a visão estratégica, consulte o [Roadmap Estratégico](https://docs.quantilica.com/roadmap).*
 *Para detalhes técnicos e planos de infraestrutura, consulte [.github/ARCHITECTURE.md](ARCHITECTURE.md).*
 
-*Atualizado em: 13 de maio de 2026*
+*Atualizado em: 10 de agosto de 2026*

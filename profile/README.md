@@ -10,11 +10,11 @@ A **Quantilica** é uma organização dedicada a transformar a complexidade dos 
 Abstraímos a instabilidade e a inconsistência das fontes oficiais (APIs obsoletas, FTPs lentos e arquivos sem tipo) para fornecer uma experiência unificada e moderna de acesso a dados.
 
 ### Nossos Principais Domínios
-- 🏛️ **Fiscais e Tesouro:** Coletores para Tesouro Direto, Resultado do Tesouro Nacional (RTN) e BCB.
+- 🏛️ **Fiscais e Tesouro:** Coletores para Tesouro Direto, Resultado do Tesouro Nacional (RTN), RFB (CNPJ) e BCB.
 - 📈 **Estatísticas e Economia:** Integração profunda com SIDRA/IBGE e Comércio Exterior (Comex Stat).
-- 🏥 **Saúde:** Extração e normalização de microdados do DATASUS.
+- 🏥 **Saúde e Educação:** Extração e normalização de microdados do DATASUS e INEP.
 - 💼 **Trabalho:** Processamento de dados do Programa de Disseminação de Estatísticas do Trabalho (PDET).
-- ☁️ **Meteorologia:** Coleta automatizada de dados históricos do INMET.
+- ☁️ **Infraestrutura e Energia:** Coleta automatizada de dados da ANP (Petróleo/Gás), ANAC (Aviação) e INMET (Meteorologia).
 
 ---
 
@@ -31,7 +31,7 @@ Todos os nossos projetos são construídos sobre o [**`quantilica-core`**](https
 ## 🗺️ Visão de Futuro
 
 Estamos evoluindo para nos tornarmos a **Camada de Abstração de Dados (Data Access Layer)** definitiva para o Brasil:
-1.  **CLI Unificada:** [`quantilica-cli`](https://github.com/Quantilica/quantilica-cli) — interface única com descoberta de fetchers via plugins. *(Disponível em v0.1.0)*
+1.  **CLI Unificada:** [`quantilica-cli`](https://github.com/Quantilica/quantilica-cli) — interface única com descoberta de fetchers via plugins. *(Disponível na versão estável `v0.3+`)*
 2.  **Data Contracts:** Garantia de integridade e alerta automático de mudanças nas fontes.
 3.  **Unified Hub:** Portal para busca global e download de dados pré-processados.
 
