@@ -10,11 +10,16 @@ A Quantilica opera atualmente sob o modelo **BDFL** (Benevolent Dictator For Lif
 
 ## Decisões Técnicas
 
-Decisões arquiteturais significativas (novo pacote de fundação, mudança de dependência crítica, quebra de API) são documentadas no [ARCHITECTURE.md](ARCHITECTURE.md) antes de serem implementadas.
+Decisões arquiteturais significativas (novo pacote de fundação, mudança de dependência crítica, quebra de API) são registradas como **ADRs** e resumidas no [ARCHITECTURE.md](ARCHITECTURE.md) antes de serem implementadas. O `ARCHITECTURE.md` é a visão canônica pública; os ADRs detalham contexto, alternativas descartadas e trade-offs.
 
 ## Ciclo de Releases
 
-Não há ciclo fixo. Releases são publicadas conforme funcionalidades são concluídas e testadas. O único pacote publicado no PyPI é o `datasus-fetcher`; os demais são instalados via `git+https`.
+Não há ciclo fixo. Releases são publicadas conforme funcionalidades são concluídas e testadas, seguindo [Keep a Changelog](https://keepachangelog.com/) + SemVer.
+
+A distribuição é **bifurcada**:
+
+- **PyPI:** `quantilica-core` e `quantilica-cli` (âncoras do ecossistema).
+- **GitHub Releases + índice próprio (PEP 503):** todos os `*-fetcher`, `quantilica-analytics` e `quantilica-catalog`. Instalação canônica via `quantilica install <fonte>` ou `uv add <pacote> --index https://index.quantilica.com/simple/`.
 
 ## Futuro
 

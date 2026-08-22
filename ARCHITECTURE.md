@@ -16,4 +16,17 @@ A arquitetura da Quantilica segue o princípio da **Neutralidade de Domínio**, 
 - **CLI Host:** Ponto de entrada unificado para todas as ferramentas.
 
 ---
-*Atualizado em: 12 de maio de 2026*
+
+## Superfícies Públicas
+
+| Superfície | Endereço | Tecnologia | Papel |
+|---|---|---|---|
+| Landing | `quantilica.com` | Hugo (GitHub Pages) | Apresentação da organização e links |
+| Documentação | `docs.quantilica.com` | MkDocs (GitHub Pages) | Guias, normas, cookbook, roadmap |
+| Índice de pacotes | `index.quantilica.com` | Estático PEP 503 (GitHub Pages) | Instalação dos fetchers via pip/uv (`quantilica install`) |
+| Portal | `*.quantilica.com` (subdomínios por módulo) | FastAPI + HTMX | Aplicações interativas de dados |
+
+Repositórios internos (planos, conhecimento, portal) permanecem privados e **não são referenciados** na documentação pública.
+
+---
+*Atualizado em: 22 de agosto de 2026*
