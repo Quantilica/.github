@@ -1,0 +1,45 @@
+name: Coletor quebrado (fonte oficial mudou)
+description: Reporte um fetcher que parou de funcionar por mudança na fonte oficial (layout, URL, status HTTP).
+title: "[fetcher] <fonte>: <resumo>"
+labels: [bug, fetcher]
+body:
+  - type: input
+    id: fonte
+    attributes:
+      label: Fonte
+      description: "Nome do fetcher (ex.: anac-fetcher, sidra-fetcher, comex-fetcher)"
+      placeholder: anac-fetcher
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL que falhou
+      description: URL exata da fonte (ou endpoint da API) que retornou erro/mudou
+  - type: input
+    id: http_code
+    attributes:
+      label: Status HTTP
+      description: "ex.: 403, 404, 500, 429"
+      placeholder: "403"
+  - type: textarea
+    id: fixture
+    attributes:
+      label: Trecho/HTML que quebrou
+      description: Cola o trecho do arquivo, HTML ou JSON que mudou (sem dados sensíveis)
+  - type: input
+    id: gotcha
+    attributes:
+      label: Gotcha relacionado (knowledge/)
+      description: Link para entrada em knowledge/entries/ se já existir padrão conhecido
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs do quantilica-core
+      description: Saída do comando com erro (download manifest, traceback)
+      render: shell
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do pacote
+      placeholder: "0.6.1"
