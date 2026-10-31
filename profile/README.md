@@ -1,13 +1,13 @@
 # Quantilica 📊
 ### Infraestrutura de Dados Públicos Brasileiros
 
-A **Quantilica** é uma organização dedicada a transformar a complexidade dos dados públicos brasileiros em ativos analíticos de alta qualidade. Desenvolvemos ferramentas modulares e resilientes para a coleta, normalização e governança de dados econômicos, fiscais, meteorológicos e de saúde.
+A **Quantilica** é uma organização dedicada a preservar e transformar a complexidade dos dados públicos brasileiros em ativos analíticos de alta qualidade. Desenvolvemos ferramentas modulares e resilientes para a coleta, **arquivamento histórico imutável ("nada se apaga")**, normalização e governança de dados econômicos, fiscais, meteorológicos, trabalhistas, educacionais e de saúde.
 
 ---
 
 ## 🚀 O que fazemos?
 
-Abstraímos a instabilidade e a inconsistência das fontes oficiais (APIs obsoletas, FTPs lentos e arquivos sem tipo) para fornecer uma experiência unificada e moderna de acesso a dados.
+Abstraímos a instabilidade e a inconsistência das fontes oficiais (APIs obsoletas, FTPs lentos, arquivos sem tipo e retificações silenciosas) para fornecer uma experiência unificada de acesso a dados e garantir a preservação de longo prazo da memória estatística e documental pública brasileira.
 
 ### Nossos Principais Domínios
 - 🏛️ **Fiscais e Tesouro:** Coletores para Tesouro Direto, Resultado do Tesouro Nacional (RTN), RFB (CNPJ) e BCB.
@@ -22,8 +22,9 @@ Abstraímos a instabilidade e a inconsistência das fontes oficiais (APIs obsole
 
 Todos os nossos projetos são construídos sobre o [**`quantilica-core`**](https://github.com/Quantilica/quantilica-core), garantindo:
 - **Resiliência:** Lógica de rede padronizada com retries e backoff exponencial.
-- **Proveniência:** Cada dado baixado possui um manifesto SHA256 para rastreabilidade total.
-- **Analytical-Ready:** Foco na transição de formatos brutos para **Parquet** de alta performance.
+- **Preservação Histórica (Imutabilidade):** Na camada bruta, **nada se apaga** — arquivos são versionados pelo carimbo temporal da publicação oficial (`@timestamp`), permitindo que revisões governamentais coexistam lado a lado sem sobrescrever o passado.
+- **Proveniência:** Cada dado baixado possui um manifesto SHA256 (schema v2) para rastreabilidade e reprodutibilidade total (*time-travel*).
+- **Analytical-Ready:** Foco na transição de formatos brutos para **Parquet** particionado (Lake Hive) de alta performance.
 - **Observabilidade:** Logs estruturados e monitoramento proativo das fontes governamentais.
 
 ---

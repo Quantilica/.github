@@ -21,6 +21,14 @@ A distribuição é **bifurcada**:
 - **PyPI:** `quantilica-core` e `quantilica-cli` (âncoras do ecossistema).
 - **GitHub Releases + índice próprio (PEP 503):** todos os `*-fetcher`, `quantilica-analytics` e `quantilica-catalog`. Instalação canônica via `quantilica install <fonte>` ou `uv add <pacote> --index https://index.quantilica.com/simple/`.
 
+## Governança e Preservação de Dados
+
+Um compromisso institucional central da Quantilica é possibilitar e facilitar o **arquivamento e a preservação histórica de dados públicos brutos**:
+
+- **Nada se apaga na camada bruta:** Os coletores preservam integralmente os artefatos publicados pelas fontes oficiais, versionados pelo carimbo temporal de publicação (`@timestamp`) e acompanhados de manifesto criptográfico `.manifest.json` (SHA-256).
+- **Retificações sem perda de memória:** Quando um órgão público altera, substitui ou retifica dados históricos, a nova versão é acrescentada ao acervo ao lado das anteriores, garantindo reprodutibilidade científica e auditabilidade ao longo do tempo.
+- **Espelhamento fiel da fonte:** Os coletores baixam e convertem os dados públicos tal como divulgados na origem, sem filtragem ou descarte silencioso de registros ou colunas.
+
 ## Futuro
 
 Conforme o projeto crescer em contribuidores e usuários, pretende-se migrar para um modelo de governança comunitária com comitê técnico. Isso está previsto na Fase 4 do [Roadmap Estratégico](https://docs.quantilica.com/roadmap).

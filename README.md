@@ -1,8 +1,8 @@
 # Quantilica: Infraestrutura de Dados Públicos Brasileiros
 
-A Quantilica é uma organização focada na coleta, normalização, exploração e publicação de dados públicos brasileiros (econômicos, estatísticos, meteorológicos, fiscais, trabalhistas e de saúde).
+A Quantilica é uma organização focada na coleta, **preservação histórica de arquivos brutos**, normalização, exploração e publicação de dados públicos brasileiros (econômicos, estatísticos, meteorológicos, fiscais, trabalhistas, educacionais, societários, eleitorais e de saúde).
 
-Este workspace é composto por um conjunto de projetos modulares que trabalham de forma coordenada para transformar dados brutos de fontes oficiais em ativos analíticos de alta qualidade.
+Este ecossistema é composto por um conjunto de projetos modulares que trabalham de forma coordenada para preservar de forma imutável os dados brutos das fontes oficiais ("nada se apaga") e transformá-los em ativos analíticos de alta qualidade.
 
 ---
 
@@ -30,7 +30,7 @@ Os projetos estão organizados por domínios de dados e funções arquiteturais:
 
 Os projetos seguem três padrões principais de implementação:
 
-1.  **Bibliotecas/CLIs de Coleta (Data Clients):** Pacotes enxutos focados em baixar e padronizar dados brutos (`fetcher`, `reader`, `storage`).
+1.  **Bibliotecas/CLIs de Coleta (Data Clients):** Pacotes enxutos focados em baixar, preservar todas as revisões históricas (`@timestamp`, sem nunca apagar ou sobrescrever versões anteriores) e padronizar dados brutos (`fetcher`, `reader`, `storage`).
 2.  **Apps Web de Exploração:** Interfaces Flask para consulta de metadados e visualização de catálogos (`create_app`, `PostgreSQL`, `Redis`).
 3.  **ETL Declarativo / Pipelines:** Motores Python que executam transformações baseadas em arquivos de configuração TOML/SQL.
 
@@ -52,7 +52,7 @@ Para garantir a manutenibilidade, todos os projetos novos e migrados seguem esta
 
 A Quantilica está em processo de unificação técnica seguindo estas camadas:
 1.  **Data Clients:** Bibliotecas que falam com fontes oficiais (Em progresso/Finalizado).
-2.  **Storage Layer:** Armazenamento atômico e imutável com manifestos SHA256.
+2.  **Storage Layer:** Armazenamento atômico, imutável e *append-only* de versões históricas (`@timestamp`) com manifestos SHA256 — nada se apaga.
 3.  **Metadata Registry:** Catálogo unificado de fontes e datasets.
 4.  **Data Access Layer:** Abstração de acesso via Parquet e Polars.
 
